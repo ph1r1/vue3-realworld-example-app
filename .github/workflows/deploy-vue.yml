@@ -23,7 +23,7 @@ jobs:
           cache: 'pnpm'
 
       - name: build the code
-        run: 
+        run: |
           pnpm install
           pnpm build
 
